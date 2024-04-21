@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<Pane prefHeight="522.0" prefWidth="790.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.aplicacionherenciabiblio.controllers.InicioController">
+   <children>
+      <ImageView fitHeight="78.0" fitWidth="78.0" layoutX="31.0" layoutY="10.0">
+         <image>
+            <Image url="@../../../Imagenes/loigo.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="110.0" fitWidth="106.0" layoutX="802.0" layoutY="104.0">
+         <image>
+            <Image url="@../../../Imagenes/Administrador.png" />
+         </image>
+      </ImageView>
+      <AnchorPane layoutY="-13.0" prefHeight="539.0" prefWidth="359.0" style="-fx-background-color: #6D80D8;">
+         <children>
+            <ImageView fitHeight="102.0" fitWidth="285.0" layoutX="27.0" layoutY="222.0">
+               <image>
+                  <Image url="@../../../Imagenes/logo.png" />
+               </image>
+            </ImageView>
+         </children>
+      </AnchorPane>
+      <AnchorPane layoutX="426.0" layoutY="86.0" prefHeight="350.0" prefWidth="293.0" style="-fx-background-color: #C9EDFF; -fx-border-color: #C9EDFF; -fx-background-radius: 15;">
+         <children>
+            <Text layoutX="81.0" layoutY="46.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Inicio De Sesion">
+               <font>
+                  <Font size="19.0" />
+               </font>
+            </Text>
+            <Text layoutX="31.0" layoutY="84.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Usuario">
+               <font>
+                  <Font size="16.0" />
+               </font>
+            </Text>
+            <Text layoutX="34.0" layoutY="168.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Contraseña">
+               <font>
+                  <Font size="16.0" />
+               </font>
+            </Text>
+            <TextField fx:id="UsuarioText" layoutX="32.0" layoutY="96.0" prefHeight="32.0" prefWidth="150.0" style="-fx-background-color: white;" />
+            <PasswordField fx:id="PassworText" layoutX="32.0" layoutY="175.0" prefHeight="32.0" prefWidth="150.0" style="-fx-background-color: white;" />
+            <Button fx:id="IngresarButton" layoutX="93.0" layoutY="261.0" mnemonicParsing="false" onMouseClicked="#OnMouseClickIngresarButton" prefHeight="40.0" prefWidth="133.0" style="-fx-background-color: #057AB6;" text="Entrar" textFill="WHITE">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Button>
+         </children>
+      </AnchorPane>
+   </children>
+</Pane>

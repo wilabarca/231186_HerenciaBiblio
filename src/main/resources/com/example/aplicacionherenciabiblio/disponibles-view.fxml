@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane prefHeight="534.0" prefWidth="759.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.aplicacionherenciabiblio.controllers.DisponiblesController">
+   <children>
+      <ImageView fitHeight="78.0" fitWidth="78.0" layoutX="31.0" layoutY="10.0">
+         <image>
+            <Image url="@../../../Imagenes/loigo.png" />
+         </image>
+      </ImageView>
+      <ListView fx:id="DisponiblesList" layoutX="81.0" layoutY="198.0" prefHeight="286.0" prefWidth="603.0" />
+      <Label layoutX="57.0" layoutY="123.0">
+         <font>
+            <Font name="Constantia Bold" size="37.0" />
+         </font>
+      </Label>
+      <AnchorPane prefHeight="67.0" prefWidth="766.0" style="-fx-background-color: #6D80D8; -fx-border-color: #6D80D8;">
+         <children>
+            <ImageView fitHeight="63.0" fitWidth="151.0" layoutX="14.0" layoutY="2.0">
+               <image>
+                  <Image url="@../../../../../../../../OneDrive/Documentos/BIBLIOTECAMUTLDICIPLINARIO/src/main/resources/Imagenes/Logo.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="63.0" fitWidth="220.0" layoutX="14.0" layoutY="2.0">
+               <image>
+                  <Image url="@../../../Imagenes/logo.png" />
+               </image>
+            </ImageView>
+            <Button fx:id="AtrasButton" layoutX="624.0" layoutY="14.0" mnemonicParsing="false" onMouseClicked="#OnMouseClickedAtrasButton" prefHeight="40.0" prefWidth="96.0" style="-fx-background-color: #057AB6;" text="Regresar" textFill="WHITE">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Button>
+         </children>
+      </AnchorPane>
+      <AnchorPane layoutX="205.0" layoutY="111.0" prefHeight="44.0" prefWidth="356.0" style="-fx-background-color: #D2DFFF; -fx-background-radius: 10;">
+         <children>
+            <Button fx:id="MostrarButton" layoutX="234.0" layoutY="6.0" mnemonicParsing="false" onMouseClicked="#OnMouseClickedMostrarButton" prefHeight="31.0" prefWidth="96.0" style="-fx-background-color: #057AB6;" text="Mostrar" textFill="WHITE">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Button>
+            <Text layoutX="32.0" layoutY="29.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Libros Disponibles">
+               <font>
+                  <Font size="19.0" />
+               </font>
+            </Text>
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>
