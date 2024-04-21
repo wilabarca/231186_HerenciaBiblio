@@ -6,14 +6,14 @@
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.text.Font?>
 
-<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="753.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.aplicacionherenciabiblio.controllers.GerenteController">
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="782.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.aplicacionherenciabiblio.controllers.GerenteController">
    <children>
       <ImageView fitHeight="78.0" fitWidth="78.0" layoutX="31.0" layoutY="10.0">
          <image>
             <Image url="@../../../Imagenes/loigo.png" />
          </image>
       </ImageView>
-      <AnchorPane prefHeight="67.0" prefWidth="759.0" style="-fx-background-color: #6D80D8; -fx-border-color: #6D80D8;">
+      <AnchorPane prefHeight="67.0" prefWidth="782.0" style="-fx-background-color: #6D80D8; -fx-border-color: #6D80D8;">
          <children>
             <ImageView fitHeight="63.0" fitWidth="151.0" layoutX="14.0" layoutY="2.0">
                <image>
@@ -50,7 +50,7 @@
             </Button>
          </children>
       </AnchorPane>
-      <AnchorPane layoutX="78.0" layoutY="408.0" prefHeight="130.0" prefWidth="274.0" style="-fx-background-color: #78B6D8; -fx-border-color: #78B6D8; -fx-background-radius: 12;">
+      <AnchorPane layoutX="245.0" layoutY="416.0" prefHeight="130.0" prefWidth="274.0" style="-fx-background-color: #78B6D8; -fx-border-color: #78B6D8; -fx-background-radius: 12;">
          <children>
             <Button fx:id="DisponibleButton" layoutX="61.0" layoutY="65.0" mnemonicParsing="false" onMouseClicked="#OnMouseClickedDisponibleButton" prefHeight="40.0" prefWidth="151.0" style="-fx-background-color: #4CA5D5;" text="Disponibles" textFill="WHITE">
                <font>
@@ -59,7 +59,7 @@
             </Button>
          </children>
       </AnchorPane>
-      <AnchorPane layoutX="401.0" layoutY="343.0" prefHeight="130.0" prefWidth="274.0" style="-fx-background-color: #78B6D8; -fx-border-color: #78B6D8; -fx-background-radius: 12;">
+      <AnchorPane layoutX="425.0" layoutY="255.0" prefHeight="130.0" prefWidth="274.0" style="-fx-background-color: #78B6D8; -fx-border-color: #78B6D8; -fx-background-radius: 12;">
          <children>
             <Button fx:id="MostrarLibroButton" layoutX="72.0" layoutY="78.0" mnemonicParsing="false" onMouseClicked="#OnMouseClickedMostrarLibroButton" prefHeight="40.0" prefWidth="146.0" style="-fx-background-color: #4CA5D5;" text="Mostrar Libros" textFill="WHITE">
                <font>
@@ -68,7 +68,7 @@
             </Button>
          </children>
       </AnchorPane>
-      <AnchorPane layoutX="401.0" layoutY="173.0" prefHeight="130.0" prefWidth="274.0" style="-fx-background-color: #78B6D8; -fx-border-color: #78B6D8; -fx-background-radius: 12;">
+      <AnchorPane layoutX="425.0" layoutY="108.0" prefHeight="130.0" prefWidth="274.0" style="-fx-background-color: #78B6D8; -fx-border-color: #78B6D8; -fx-background-radius: 12;">
          <children>
             <Button fx:id="PrestadosButton1" layoutX="68.0" layoutY="65.0" mnemonicParsing="false" onMouseClicked="#OnMouseClickedPrestadosButton" prefHeight="40.0" prefWidth="138.0" style="-fx-background-color: #4CA5D5;" text="Prestados" textFill="WHITE">
                <font>
