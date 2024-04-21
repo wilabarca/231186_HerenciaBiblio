@@ -32,49 +32,74 @@
             </Button>
          </children>
       </AnchorPane>
-      <AnchorPane layoutX="78.0" layoutY="108.0" prefHeight="130.0" prefWidth="274.0" style="-fx-background-color: #78B6D8; -fx-border-color: #78B6D8; -fx-background-radius: 12;">
+      <AnchorPane layoutX="78.0" layoutY="100.0" prefHeight="138.0" prefWidth="274.0" style="-fx-background-color: #78B6D8; -fx-border-color: #78B6D8; -fx-background-radius: 12;">
          <children>
-            <Button fx:id="AddLibroButton" layoutX="73.0" layoutY="65.0" mnemonicParsing="false" onMouseClicked="#OnMouseClickedAddLibroButton" prefHeight="40.0" prefWidth="145.0" style="-fx-background-color: #4CA5D5;" text="Agregar Libro" textFill="WHITE">
+            <Button fx:id="AddLibroButton" layoutX="64.0" layoutY="85.0" mnemonicParsing="false" onMouseClicked="#OnMouseClickedAddLibroButton" prefHeight="40.0" prefWidth="145.0" style="-fx-background-color: #4CA5D5;" text="Agregar Libro" textFill="WHITE">
                <font>
                   <Font size="18.0" />
                </font>
             </Button>
+            <ImageView fitHeight="67.0" fitWidth="69.0" layoutX="103.0" layoutY="14.0">
+               <image>
+                  <Image url="@../../../Imagenes/libro.png" />
+               </image>
+            </ImageView>
          </children>
       </AnchorPane>
-      <AnchorPane layoutX="78.0" layoutY="255.0" prefHeight="130.0" prefWidth="274.0" style="-fx-background-color: #78B6D8; -fx-border-color: #78B6D8; -fx-background-radius: 12;">
+      <AnchorPane layoutX="78.0" layoutY="266.0" prefHeight="130.0" prefWidth="274.0" style="-fx-background-color: #78B6D8; -fx-border-color: #78B6D8; -fx-background-radius: 12;">
          <children>
-            <Button fx:id="PrestarLibroButton" layoutX="63.0" layoutY="65.0" mnemonicParsing="false" onMouseClicked="#OnMouseClickedPrestarLibroButton" prefHeight="40.0" prefWidth="160.0" style="-fx-background-color: #4CA5D5;" text="Prestar Libro" textFill="WHITE">
+            <Button fx:id="PrestarLibroButton" layoutX="65.0" layoutY="76.0" mnemonicParsing="false" onMouseClicked="#OnMouseClickedPrestarLibroButton" prefHeight="40.0" prefWidth="160.0" style="-fx-background-color: #4CA5D5;" text="Prestar Libro" textFill="WHITE">
                <font>
                   <Font size="18.0" />
                </font>
             </Button>
+            <ImageView fitHeight="78.0" fitWidth="90.0" layoutX="92.0">
+               <image>
+                  <Image url="@../../../Imagenes/pedir-prestado.png" />
+               </image>
+            </ImageView>
          </children>
       </AnchorPane>
-      <AnchorPane layoutX="78.0" layoutY="408.0" prefHeight="130.0" prefWidth="274.0" style="-fx-background-color: #78B6D8; -fx-border-color: #78B6D8; -fx-background-radius: 12;">
+      <AnchorPane layoutX="239.0" layoutY="430.0" prefHeight="138.0" prefWidth="274.0" style="-fx-background-color: #78B6D8; -fx-border-color: #78B6D8; -fx-background-radius: 12;">
          <children>
-            <Button fx:id="DisponibleButton" layoutX="61.0" layoutY="65.0" mnemonicParsing="false" onMouseClicked="#OnMouseClickedDisponibleButton" prefHeight="40.0" prefWidth="151.0" style="-fx-background-color: #4CA5D5;" text="Disponibles" textFill="WHITE">
+            <Button fx:id="DisponibleButton" layoutX="61.0" layoutY="84.0" mnemonicParsing="false" onMouseClicked="#OnMouseClickedDisponibleButton" prefHeight="40.0" prefWidth="151.0" style="-fx-background-color: #4CA5D5;" text="Disponibles" textFill="WHITE">
                <font>
                   <Font size="18.0" />
                </font>
             </Button>
+            <ImageView fitHeight="67.0" fitWidth="69.0" layoutX="102.0" layoutY="2.0">
+               <image>
+                  <Image url="@../../../Imagenes/calendario.png" />
+               </image>
+            </ImageView>
          </children>
       </AnchorPane>
-      <AnchorPane layoutX="401.0" layoutY="343.0" prefHeight="130.0" prefWidth="274.0" style="-fx-background-color: #78B6D8; -fx-border-color: #78B6D8; -fx-background-radius: 12;">
+      <AnchorPane layoutX="401.0" layoutY="262.0" prefHeight="138.0" prefWidth="274.0" style="-fx-background-color: #78B6D8; -fx-border-color: #78B6D8; -fx-background-radius: 12;">
          <children>
-            <Button fx:id="MostrarLibroButton" layoutX="72.0" layoutY="78.0" mnemonicParsing="false" onMouseClicked="#OnMouseClickedMostrarLibroButton" prefHeight="40.0" prefWidth="146.0" style="-fx-background-color: #4CA5D5;" text="Mostrar Libros" textFill="WHITE">
+            <Button fx:id="MostrarLibroButton" layoutX="70.0" layoutY="89.0" mnemonicParsing="false" onMouseClicked="#OnMouseClickedMostrarLibroButton" prefHeight="40.0" prefWidth="146.0" style="-fx-background-color: #4CA5D5;" text="Mostrar Libros" textFill="WHITE">
                <font>
                   <Font size="18.0" />
                </font>
             </Button>
+            <ImageView fitHeight="67.0" fitWidth="78.0" layoutX="104.0" layoutY="11.0">
+               <image>
+                  <Image url="@../../../Imagenes/libros.png" />
+               </image>
+            </ImageView>
          </children>
       </AnchorPane>
-      <AnchorPane layoutX="401.0" layoutY="173.0" prefHeight="130.0" prefWidth="274.0" style="-fx-background-color: #78B6D8; -fx-border-color: #78B6D8; -fx-background-radius: 12;">
+      <AnchorPane layoutX="401.0" layoutY="100.0" prefHeight="138.0" prefWidth="274.0" style="-fx-background-color: #78B6D8; -fx-border-color: #78B6D8; -fx-background-radius: 12;">
          <children>
-            <Button fx:id="PrestadosButton1" layoutX="68.0" layoutY="65.0" mnemonicParsing="false" onMouseClicked="#OnMouseClickedPrestadosButton" prefHeight="40.0" prefWidth="138.0" style="-fx-background-color: #4CA5D5;" text="Prestados" textFill="WHITE">
+            <Button fx:id="PrestadosButton1" layoutX="60.0" layoutY="84.0" mnemonicParsing="false" onMouseClicked="#OnMouseClickedPrestadosButton" prefHeight="40.0" prefWidth="138.0" style="-fx-background-color: #4CA5D5;" text="Prestados" textFill="WHITE">
                <font>
                   <Font size="18.0" />
                </font>
             </Button>
+            <ImageView fitHeight="78.0" fitWidth="98.0" layoutX="80.0">
+               <image>
+                  <Image url="@../../../Imagenes/prestado.png" />
+               </image>
+            </ImageView>
          </children>
       </AnchorPane>
    </children>
